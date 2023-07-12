@@ -1,0 +1,27 @@
+.neumorphic {
+    box-shadow: 12px 12px 24px 0 rgba(0, 0, 0, 0.2),
+      -12px -12px 24px 0 rgba(255, 255, 255, 0.5);
+    /* font-size: 5rem; */
+    width: 150px;
+    height: 50px;
+    border-radius: 40px;
+    overflow: hidden;
+    padding: 1.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .neumorphicPressed {
+    /* font-size: 5rem; */
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    border-radius: 40px;
+    overflow: hidden;
+    padding: 1.3rem;
+    display: flex;
+    box-shadow: inset 6px 6px 10px 0 rgba(0, 0, 0, 0.2),
+      inset -6px -6px 10px 0 rgba(255, 255, 255, 0.5);
+  }
