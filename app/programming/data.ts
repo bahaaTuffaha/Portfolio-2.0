@@ -26,7 +26,7 @@ export const myfile: linuxItem[] = [
     permission: "-rw-r--r--",
     time: "6 12:30",
     description:
-      "This website made with love and passionate using .net-blazor. then now I did a remastered version in React/nextJs that currently using.",
+      "This website made with love and passionate using .net-blazor. then now I did a remastered version in React/nextJs that you currently browsing",
     stack: "Used: NextJs, Tailwind, react-spring, mui/material",
     image: "/images/programing_mid.gif",
     size: 4096,

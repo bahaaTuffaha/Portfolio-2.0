@@ -143,7 +143,7 @@ export default function Page() {
                   </span>
 
                   <a target="_blank" href="mailto:bahaa.tuffaha@yahoo.com">
-                    <button className="shine">Contact Me</button>
+                    <div className="shine">Contact Me</div>
                   </a>
                 </div>
               </>
@@ -160,7 +160,7 @@ export default function Page() {
                     target="_blank"
                     href="https://www.linkedin.com/in/bahaa-tuffaha/"
                   >
-                    <button className="shine">Linkedin</button>
+                    <div className="shine">Linkedin</div>
                   </a>
                 </div>
               </>
@@ -174,7 +174,7 @@ export default function Page() {
                   <span className="font-bold text-xs my-2">bahaaTuffaha</span>
 
                   <a target="_blank" href="https://github.com/bahaaTuffaha/">
-                    <button className="shine">Github</button>
+                    <div className="shine">Github</div>
                   </a>
                 </div>
               </>
