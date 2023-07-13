@@ -6,6 +6,9 @@ import { LinuxLinksList } from "./LinuxLinksList";
 import DialogModal from "./DialogModal";
 import Image from "next/image";
 import { FlipCard } from "./FlipCard";
+import Link from "next/link";
+import { Button } from "@mui/material";
+import { CardContent } from "./CardContent";
 export default function Page() {
   const [openDialog, SetOpenDialog] = useState(false);
   const [selection, setSelection] = useState(0);
@@ -131,53 +134,27 @@ export default function Page() {
           style={module}
           className="bg-[url('/images/programing_mid2.png')] lg:bg-[url('/images/me4_22.png')]"
         >
-          <div className="grid grid-flow-row lg:grid-cols-3 grid-rows-3 w-full lg:w-3/4 justify-center pl-5">
+          <div className="grid grid-flow-row lg:grid-cols-3 grid-rows-3 w-full lg:w-3/4 justify-center pl-5 lg:mt-6">
             <FlipCard>
-              <>
-                <div className="w-full m-5">
-                  <p className="text-[#fffafa] text-sm select-none">Email</p>
-                </div>
-                <div className="w-full flex flex-col text-center">
-                  <span className="font-bold text-xs my-2">
-                    bahaa.tuffaha@yahoo.com
-                  </span>
-
-                  <a target="_blank" href="mailto:bahaa.tuffaha@yahoo.com">
-                    <div className="shine">Contact Me</div>
-                  </a>
-                </div>
-              </>
+              <CardContent
+                link="mailto:bahaa.tuffaha@yahoo.com"
+                name="bahaa.tuffaha@yahoo.com"
+                platform="Email"
+              />
             </FlipCard>
             <FlipCard type={2}>
-              <>
-                <div className="w-full m-5">
-                  <p className="text-[#fffafa] text-sm select-none">Linkedin</p>
-                </div>
-                <div className="w-full flex flex-col text-center">
-                  <span className="font-bold text-xs my-2">bahaa-tuffaha</span>
-
-                  <a
-                    target="_blank"
-                    href="https://www.linkedin.com/in/bahaa-tuffaha/"
-                  >
-                    <div className="shine">Linkedin</div>
-                  </a>
-                </div>
-              </>
+              <CardContent
+                link="https://www.linkedin.com/in/bahaa-tuffaha/"
+                name="bahaa-tuffaha"
+                platform="Linkedin"
+              />
             </FlipCard>
             <FlipCard type={3}>
-              <>
-                <div className="w-full m-5">
-                  <p className="text-[#fffafa] text-sm select-none">Github</p>
-                </div>
-                <div className="w-full flex flex-col text-center">
-                  <span className="font-bold text-xs my-2">bahaaTuffaha</span>
-
-                  <a target="_blank" href="https://github.com/bahaaTuffaha/">
-                    <div className="shine">Github</div>
-                  </a>
-                </div>
-              </>
+              <CardContent
+                link="https://github.com/bahaaTuffaha/"
+                name="bahaaTuffaha"
+                platform="Github"
+              />
             </FlipCard>
           </div>
         </section>

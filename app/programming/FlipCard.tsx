@@ -9,16 +9,7 @@ export const FlipCard = ({
 }) => {
   return (
     <div className="break-words">
-      <div
-        id="card"
-        className="flip-card"
-        tabIndex={0}
-        style={{
-          marginTop: "20px",
-          // marginRight: "auto",
-          // marginLeft: "auto",
-        }}
-      >
+      <div id="card" className="flip-card" tabIndex={0}>
         <div className="flip-card-inner">
           <div
             className="flip-card-front"
