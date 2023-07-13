@@ -22,7 +22,7 @@ export default function Page() {
       <h1 className="text-7xl font-jd_code text-[#2673dc] text-center select-none mt-20">
         GALLERY
       </h1>
-      <div className="flex justify-center space-x-10">
+      <div className="flex justify-center space-x-10 my-5">
         <img
           className="lg:w-36 lg:h-36 w-20 h-20 hover:grayscale duration-500 ease-in-out"
           src="/images/Photoshop.png"
