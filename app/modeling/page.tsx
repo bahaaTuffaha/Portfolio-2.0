@@ -1,8 +1,8 @@
 "use client";
 import { useState } from "react";
 import { Gallery } from "react-grid-gallery";
-import Lightbox from "react-image-lightbox";
-import "react-image-lightbox/style.css";
+import Lightbox from "@olenbetong/react-image-lightbox";
+import "@olenbetong/react-image-lightbox";
 import { images, CustomImage } from "./images";
 export default function Page() {
   const [index, setIndex] = useState(-1);
