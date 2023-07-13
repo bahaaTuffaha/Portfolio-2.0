@@ -19,17 +19,7 @@ export const CardContent = ({
         <span className="font-bold text-xs my-2">{name}</span>
 
         <Link target="_blank" href={link}>
-          <a>
-            <Button
-              variant="contained"
-              style={{
-                backgroundColor: "rgba(255, 217, 0, 0.767)",
-                textTransform: "capitalize",
-              }}
-            >
-              {platform}
-            </Button>
-          </a>
+          <div className="bg-[#ffd900c3] w-full font-FiraMono">{platform}</div>
         </Link>
       </div>
     </>

@@ -1,4 +1,3 @@
-import { generateRandomInteger } from "@/utils/functions";
 import { Dispatch, SetStateAction } from "react";
 export const LinuxLinksList = ({
   data,
