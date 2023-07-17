@@ -50,7 +50,7 @@ export const myfile: linuxItem[] = [
     description:
       "At Fitlov, I actively participate in developing and maintaining the mobile and web application using a variety of technologies, including Node.js, React, and React Native.Additionally, I’m involved in testing and debugging to identify and fix any issues that may arise. My close collaboration with the development team allows us to work efficiently and effectively, delivering high-quality code and meeting project timelines)",
     stack:
-      "Used: React-native, Typescript, React-JS, NextJs, tailwind, graphql, Firebase",
+      "Used: React-native, React-js, Next-js, Typescript, tailwind, graphql, Firebase.",
     image: "/images/fitlov.png",
     size: 665600000,
   },
