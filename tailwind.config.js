@@ -9,7 +9,7 @@ module.exports = {
     extend: {
       colors:{"blue":"#0000ff"},
       fontFamily: {
-        'jd_code': ['jd_code', 'sans-serif'], 'FiraMono': ['FiraMono', 'sans-serif']
+        'jd_code': ['jd_code', 'sans-serif'], 'FiraMono': ['FiraMono', 'sans-serif'], 'TitilliumWeb-Light': ['TitilliumWeb-Light', 'sans-serif']
       },
       backgroundImage: {
         'back1-l':"url('/images/me3.png')",

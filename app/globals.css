@@ -10,6 +10,10 @@
   font-family: "FiraMono";
   src: url("../public/fonts/FiraMono-Regular.woff");
 }
+@font-face {
+  font-family: "TitilliumWeb-Light";
+  src: url("../public/fonts/TitilliumWeb-Light.woff");
+}
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
