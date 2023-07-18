@@ -6,6 +6,13 @@ export interface CustomImage extends Image {
 
 export const images: CustomImage[] = [
   {
+    src: "/images/FancyClock.jpg",
+    original: "/images/FancyClock.jpg",
+    width: 1920,
+    height: 1080,
+    caption: "Fancy Pendulum Wall Clock",
+  },
+  {
     src: "/images/cozy_room.jpg",
     original: "/images/cozy_room.jpg",
     width: 1920,
