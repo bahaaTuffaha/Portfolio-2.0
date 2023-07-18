@@ -2,9 +2,9 @@
 import { useState } from "react";
 import { Gallery } from "react-grid-gallery";
 import Lightbox from "@olenbetong/react-image-lightbox";
-import "@olenbetong/react-image-lightbox";
 import { images, CustomImage } from "./images";
 import { Box, Grow } from "@mui/material";
+import "./styling.css";
 export default function Page() {
   const [index, setIndex] = useState(-1);
 
@@ -21,14 +21,14 @@ export default function Page() {
   return (
     <div>
       <Grow appear={true} in={true} {...(true ? { timeout: 1000 } : {})}>
-        <Box className="cbox">
+        <Box>
           <h1 className="text-7xl font-jd_code text-[#2673dc] text-center select-none mt-20">
             GALLERY
           </h1>
         </Box>
       </Grow>
       <Grow appear={true} in={true} {...(true ? { timeout: 1500 } : {})}>
-        <Box className="cbox">
+        <Box>
           <div className="flex justify-center space-x-10 my-5">
             <img
               className="lg:w-36 lg:h-36 w-16 h-16 hover:grayscale duration-500 ease-in-out"
@@ -52,8 +52,8 @@ export default function Page() {
         </Box>
       </Grow>
       <Grow appear={true} in={true} {...(true ? { timeout: 2000 } : {})}>
-        <Box className="cbox">
-          <div>
+        <Box>
+          <div className="gallary">
             <Gallery
               images={images}
               onClick={handleClick}
