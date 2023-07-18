@@ -117,8 +117,8 @@ export const images: CustomImage[] = [
   {
     src: "/images/Poster.png",
     original: "/images/Poster.png",
-    width: 792,
-    height: 1008,
+    width: 1920,
+    height: 1080,
     caption: "poster",
   },
   {
