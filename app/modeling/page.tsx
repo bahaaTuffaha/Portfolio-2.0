@@ -5,6 +5,7 @@ import Lightbox from "@olenbetong/react-image-lightbox";
 import { images, CustomImage } from "./images";
 import { Box, Grow } from "@mui/material";
 import "./styling.css";
+import YoutubeEmbed from "@/components/YoutubeEmbed";
 export default function Page() {
   const [index, setIndex] = useState(-1);
 
@@ -76,6 +77,12 @@ export default function Page() {
             )}
           </div>
         </Box>
+      </Grow>
+      <Grow appear={true} in={true} {...(true ? { timeout: 2500 } : {})}>
+        <div className="w-full h-fit bg-gradient-to-t from-zinc-900 to-black">
+          <YoutubeEmbed embedId="CdhZQVaqbGU" />
+          <YoutubeEmbed embedId="l-Xj9XtFTEM" />
+        </div>
       </Grow>
     </div>
   );

@@ -100,6 +100,24 @@ body {
   flex-direction: column;
   font-family: 'Ubuntu', sans-serif;
 }
+.video-responsive {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.video-responsive iframe {
+  height: 540px;
+  width: 960px;
+}
+@media (max-width:800px) {
+  .video-responsive iframe {
+    height: 540px;
+    width: 100%;
+
+  }
+}
+
 
 /* @media (max-width:500px) {
   .flip-card {
